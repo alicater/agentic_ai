@@ -7,14 +7,14 @@
 
 This (as of now) does not have rag implemented, a working memory, or a larger file system working. Only the listed file formats work as of now.
 
-The ides is for this to work similarly to a basic custom gpt like in ChatGPT but locally with Ollama models.
+The idea is for this to work similarly to a basic custom gpt like in ChatGPT but locally with Ollama models.
 
 ## Run Your Ollama Model
 You must start your ollama server and model first, then our python code will connect to that server.
 
 As a reminder to start the server you'll enter the following in your terminal:
 ```
-ollama server
+ollama serve
 ```
 *open new terminal*
 ```
